@@ -1,5 +1,6 @@
 package com.fnb.orderservice.entity;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 import jakarta.persistence.Entity;
@@ -22,7 +23,7 @@ public class InvenotryItem {
 
     private String itemName;
     private String description;
-    private float price;
+    private BigDecimal price;
     private int stockQuantity;
     private int version;
 

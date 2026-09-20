@@ -1,5 +1,6 @@
 package com.fnb.orderservice.entity;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 import jakarta.persistence.Entity;
@@ -33,7 +34,7 @@ public class Order {
 
     private boolean deliveryNeeded;
 
-    private float totalAmount;
+    private BigDecimal totalAmount;
 
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
